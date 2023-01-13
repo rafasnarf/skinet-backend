@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/app/API/API.csproj": {}
+    "C:\\Rafael\\dotnet\\estore\\skinet-backend\\API\\API.csproj": {}
   },
   "projects": {
-    "/app/API/API.csproj": {
+    "C:\\Rafael\\dotnet\\estore\\skinet-backend\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/app/API/API.csproj",
+        "projectUniqueName": "C:\\Rafael\\dotnet\\estore\\skinet-backend\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "/app/API/API.csproj",
-        "packagesPath": "/home/develop/.nuget/packages/",
-        "outputPath": "/app/API/obj/",
+        "projectPath": "C:\\Rafael\\dotnet\\estore\\skinet-backend\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\snarf\\.nuget\\packages\\",
+        "outputPath": "C:\\Rafael\\dotnet\\estore\\skinet-backend\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/develop/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\snarf\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -25,7 +25,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Rafael\\dotnet\\estore\\skinet-backend\\Infrasctructure\\Infrasctructure.csproj": {
+                "projectPath": "C:\\Rafael\\dotnet\\estore\\skinet-backend\\Infrasctructure\\Infrasctructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -38,6 +42,12 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -62,7 +72,123 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.405/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Rafael\\dotnet\\estore\\skinet-backend\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Rafael\\dotnet\\estore\\skinet-backend\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Rafael\\dotnet\\estore\\skinet-backend\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\snarf\\.nuget\\packages\\",
+        "outputPath": "C:\\Rafael\\dotnet\\estore\\skinet-backend\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\snarf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Rafael\\dotnet\\estore\\skinet-backend\\Infrasctructure\\Infrasctructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Rafael\\dotnet\\estore\\skinet-backend\\Infrasctructure\\Infrasctructure.csproj",
+        "projectName": "Infrasctructure",
+        "projectPath": "C:\\Rafael\\dotnet\\estore\\skinet-backend\\Infrasctructure\\Infrasctructure.csproj",
+        "packagesPath": "C:\\Users\\snarf\\.nuget\\packages\\",
+        "outputPath": "C:\\Rafael\\dotnet\\estore\\skinet-backend\\Infrasctructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\snarf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Rafael\\dotnet\\estore\\skinet-backend\\Core\\Core.csproj": {
+                "projectPath": "C:\\Rafael\\dotnet\\estore\\skinet-backend\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
