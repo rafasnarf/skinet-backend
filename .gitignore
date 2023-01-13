@@ -3,3 +3,4 @@ API/obj
 obj
 bin
 appsettings.json
+*.db
