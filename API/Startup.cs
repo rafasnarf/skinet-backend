@@ -1,12 +1,8 @@
-using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
 using Infrasctructure.Data;
-using Core.Interfaces;
 using AutoMapper;
 using API.Helpers;
 using API.Middleware;
-using Microsoft.AspNetCore.Mvc;
-using API.Errors;
 using API.Extensions;
 
 namespace API
@@ -26,7 +22,7 @@ namespace API
             services.AddAutoMapper(typeof(MappingProfiles));
             services.AddControllers();
             services.AddDbContext<StoreContext>(x => x.UseSqlite(_config.GetConnectionString("DefaultConnection")));
-            services.AddApplicationServices();
+            services.AddApplicationServices(_config);
             services.AddSwaggerDocumentation();
             services.AddCors(opt =>
             {
