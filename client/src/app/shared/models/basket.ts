@@ -19,3 +19,9 @@ export class Basket implements IBasket {
     id = cuid();
     items: IBasketItem[] = [];
 }
+
+export interface IBasketTotals {
+    shipping: number;
+    subtotal: number;
+    total: number;
+}
