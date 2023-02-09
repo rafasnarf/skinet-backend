@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Rafael\\dotnet\\estore\\skinet-backend\\API\\API.csproj": {}
+    "C:\\Rafael\\dotnet\\estore\\skinet-backend\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Rafael\\dotnet\\estore\\skinet-backend\\API\\API.csproj": {
+    "C:\\Rafael\\dotnet\\estore\\skinet-backend\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Rafael\\dotnet\\estore\\skinet-backend\\API\\API.csproj",
+        "projectUniqueName": "C:\\Rafael\\dotnet\\estore\\skinet-backend\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Rafael\\dotnet\\estore\\skinet-backend\\API\\API.csproj",
+        "projectPath": "C:\\Rafael\\dotnet\\estore\\skinet-backend\\api\\API.csproj",
         "packagesPath": "C:\\Users\\snarf\\.nuget\\packages\\",
-        "outputPath": "C:\\Rafael\\dotnet\\estore\\skinet-backend\\API\\obj\\",
+        "outputPath": "C:\\Rafael\\dotnet\\estore\\skinet-backend\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\snarf\\AppData\\Roaming\\NuGet\\NuGet.Config"
